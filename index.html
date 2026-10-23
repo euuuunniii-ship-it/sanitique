@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SANITIQUE 세니티크 | 프리미엄 욕실 자재 큐레이션</title>
+<meta name="description" content="수입 프리미엄 욕실 자재를 고르고, 판매부터 설치까지 한 번에.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SANITIQUE 세니티크 | 프리미엄 욕실 자재 큐레이션">
+<meta property="og:description" content="수입 프리미엄 욕실 자재를 고르고, 판매부터 설치까지 한 번에.">
+<meta property="og:image" content="https://YOUR-GITHUB-ID.github.io/assets/og.png">
+<meta property="og:url" content="https://YOUR-GITHUB-ID.github.io/">
+<link rel="canonical" href="https://YOUR-GITHUB-ID.github.io/">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="assets/base.css">
+<style>
+:root{--ink:#1E1E1E;--sub:#8A8A8A;--line:#E6E6E6;--gray:#F4F3F0;--sale:#E0532B;--dk:#1E1E1E}
+body{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;color:var(--ink);background:#fff;font-size:14px;line-height:1.55;font-weight:300}
+.notice{text-align:center;font-size:11px;color:var(--sub);padding:8px}
+.hd{padding:0 20px;border-bottom:1px solid var(--line)}
+.hd .top{display:flex;align-items:center;justify-content:space-between;height:44px}
+.hd .logo{font-weight:700;font-size:14px;letter-spacing:.18em}
+.hd .ic{display:flex;gap:18px}
+.hd nav{display:flex;gap:26px;height:44px;align-items:center;font-size:15px;font-weight:500}
+/* 히어로 */
+.hero{position:relative;height:600px;color:#fff}
+.hero .bg{position:absolute;inset:0}.hero .bg .ph{background:#4b4038;color:#ddd}
+.hero .bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.45),transparent 60%)}
+.hero .c{position:absolute;left:40px;bottom:60px;z-index:2}
+.hero h1{font-size:38px;font-weight:600;line-height:1.3;margin:0}
+.hero p{margin:10px 0 0;font-size:14px;opacity:.85}
+.hero .cnt{position:absolute;right:40px;bottom:60px;z-index:2;display:flex;align-items:center;gap:12px;font-size:12px}
+.hero .cnt i{width:160px;height:2px;background:rgba(255,255,255,.35)}.hero .cnt i:before{content:"";display:block;width:30%;height:2px;background:#fff}
+/* 섹션 머리 */
+.sh{display:flex;justify-content:space-between;align-items:flex-end;padding:0 20px;margin:60px 0 18px}
+.sh h2{font-size:24px;font-weight:500;margin:0}.sh a{font-size:14px;color:var(--sub)}
+/* 상품 줄 */
+.prow{display:grid;grid-template-columns:repeat(5,1fr);gap:4px;padding:0 0 0 0}
+.pc .pic{aspect-ratio:1;background:var(--gray)}.pc .pic .ph{background:var(--gray)}
+.pc div.t{padding:12px 14px 0;font-size:13px}
+.pc b{display:block;font-weight:600;font-size:14px}.pc small{display:block;color:var(--sub);font-size:12px}
+.pc .pr{margin-top:8px;font-size:12px}.pc .pr em{font-style:normal;color:var(--sale);margin-left:4px}
+.prog{width:120px;height:2px;background:var(--line);margin:30px auto 0}.prog:before{content:"";display:block;width:30%;height:2px;background:var(--ink)}
+/* 어두운 반반 */
+.dsplit{display:grid;grid-template-columns:1fr 1fr;height:720px;margin-top:60px}
+.dsplit .t{background:var(--dk);color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:0 40px 60px}
+.dsplit small{font-size:16px;opacity:.7}.dsplit h3{font-size:38px;font-weight:600;line-height:1.3;margin:10px 0 24px}
+.dsplit .vm{display:inline-block;border:1px solid #fff;padding:8px 16px;font-size:12px;width:max-content}
+.dsplit .n{margin-top:20px;font-size:12px;opacity:.7}
+/* 배너 */
+.ban{position:relative;margin:60px 20px 0;height:559px}.ban .ph{background:#cfc6bc}
+.ban .cap,.duo .cap{position:absolute;left:24px;bottom:24px;color:#fff;z-index:2}
+.cap b{display:block;font-size:20px;font-weight:400}.cap small{font-size:14px;opacity:.85}
+.duo{display:grid;grid-template-columns:2fr 1fr;gap:12px;margin:12px 20px 0;height:344px}
+.duo a{position:relative}.duo .ph{background:#d8d0c6}
+/* 뉴스 */
+.news{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}
+.news .pic{height:470px}.news b{display:block;font-size:15px;font-weight:500;margin-top:12px;padding:0 14px}.news p{margin:4px 0 0;padding:0 14px;color:var(--sub);font-size:13px}
+/* 브랜드 격자 */
+.brands{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);margin:0 20px}
+.brands div{height:150px;display:grid;place-items:center;border-right:1px solid var(--line);border-bottom:1px solid var(--line);color:#9b9b9b;font-size:20px;letter-spacing:.06em}
+.brands div:nth-child(4n){border-right:0}
+/* 포트폴리오 */
+.pf{position:relative;height:760px;background:#2a2a2a;color:#fff}.pf .ph{background:#3b3632;color:#ccc}
+.pf .cap{position:absolute;left:40px;bottom:60px;z-index:2}.pf .cap b{font-size:24px}
+.pf .arr{position:absolute;top:50%;left:20px;right:20px;display:flex;justify-content:space-between;z-index:2;font-size:22px}
+/* 신청 = 서비스 반반 자리 */
+.apply{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:60px 20px 0}
+.apply .pic{position:relative;min-height:520px}.apply .pic .ph{background:#cfc6bc}
+.apply .f{background:var(--gray);padding:44px 48px}
+.apply h2{font-size:24px;font-weight:500;margin:0 0 6px}
+.field{display:block;margin-bottom:12px}
+.field span{display:block;font-size:13px;font-weight:500;margin-bottom:6px}
+.field input,.field select{width:100%;height:50px;border:1px solid #cfcfcf;background:#fff;padding:0 14px;font:inherit}
+.apply .safe-note{margin:14px 0}
+.submit{width:100%;height:50px;border:0;background:#000;color:#fff;font-size:14px}
+.ft{border-top:1px solid var(--line);margin-top:60px;padding:30px 20px;font-size:12px;color:var(--sub);display:grid;grid-template-columns:2fr 1fr;gap:30px}
+.ft nav{display:flex;gap:16px;color:var(--ink);font-weight:500;margin-bottom:14px}
+@media (max-width:860px){
+  .hd nav{overflow-x:auto;gap:16px;font-size:14px}.hero{height:460px}.hero h1{font-size:26px}.hero .c{left:20px;right:20px}.hero .cnt{display:none}
+  .prow{grid-template-columns:repeat(5,60%);overflow-x:auto}.dsplit,.apply{grid-template-columns:1fr;height:auto}.dsplit .t{padding:40px 20px}.dsplit .pic{height:320px}.dsplit h3{font-size:26px}
+  .ban{height:320px}.duo{grid-template-columns:1fr;height:auto}.duo a{height:220px}.news{grid-template-columns:1fr}.news .pic{height:300px}
+  .brands{grid-template-columns:repeat(2,1fr)}.brands div:nth-child(2n){border-right:0}.pf{height:420px}.apply .f{padding:30px 20px}.apply .pic{min-height:260px}.ft{grid-template-columns:1fr}
+}
+</style>
+<!-- GA4 (Day 34에 여기에 붙이기) -->
+<!-- Meta Pixel (Day 35에 여기에 붙이기) -->
+<!-- Microsoft Clarity (Day 38에 여기에 붙이기) -->
+<!-- Schema JSON-LD (Day 29) -->
+</head>
+<body>
+<p class="notice">프리미엄 욕실 자재 큐레이션 · 판매 · 설치를 한 번에</p>
+<header class="hd">
+  <div class="top"><a class="logo" href="./">SANITIQUE</a><div class="ic"><span>⌕</span><a href="#apply" id="cta-top">구매 상담</a><a href="#" data-privacy-open>개인정보</a></div></div>
+  <nav><a href="#new">수전</a><a href="#new">도기</a><a href="#new">샤워 시스템</a><a href="#curation">큐레이션</a><a href="#portfolio">포트폴리오</a><a href="#apply">설치 상담</a></nav>
+</header>
+
+<main>
+<section class="hero"><div class="bg"><div class="ph "><span><span class="todo">히어로: 완성된 욕실 공간 사진</span></span></div></div>
+  <div class="c"><h1><span class="todo">욕실을 바꾸는 한 문장</span></h1><p>수입 프리미엄 욕실 자재를 큐레이션하고, 판매부터 설치까지 한 번에 진행합니다.</p></div><div class="cnt">1 / 4 <i></i></div></section>
+
+<div class="sh" id="new"><h2>New Arrivals</h2><a href="#apply">더보기</a></div>
+<div class="prow"><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">세면 수전</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">세면 수전</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">양변기</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">양변기</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">샤워 시스템</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">샤워 시스템</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">세면대</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">세면대</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">욕실 액세서리</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">욕실 액세서리</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a></div><div class="prog"></div>
+
+<section class="dsplit"><div class="t"><small>PREMIUM BATH CURATION</small><h3>세니티크가 함께하는 과정</h3><a class="vm" href="#apply" id="cta-main">구매 상담 신청</a><span class="n">1 / 3</span></div><div class="pic"><div class="ph "><span><span class="todo">쇼룸 또는 AI 모델 &#39;세니킴&#39; 연출 컷</span></span></div></div></section>
+
+<div class="sh" id="curation"><h2>Curation</h2><a href="#apply">더보기</a></div>
+<div class="prow"><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">욕실 액세서리</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">욕실 액세서리</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">세면대</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">세면대</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">샤워 시스템</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">샤워 시스템</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">양변기</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">양변기</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a><a class="pc" href="#apply"><div class="pic"><div class="ph "><span><span class="todo">세면 수전</span> 누끼</span></div></div><div class="t"><small><span class="todo">브랜드</span></small><b><span class="todo">세면 수전</span></b><p class="pr" style="margin:8px 0 0">정가 <span class="todo">정가</span><br>상담가 <span class="todo">가격</span><em><span class="todo">%</span></em></p></div></a></div><div class="prog"></div>
+
+<a class="ban" href="#apply" style="display:block"><div class="ph "><span><span class="todo">완성 욕실 와이드 사진</span></span></div><span class="cap"><b>SANITIQUE Showroom</b><small><span class="todo">쇼룸 위치 또는 온라인 상담 안내</span></small></span></a>
+<div class="duo"><a href="#apply"><div class="ph "><span><span class="todo">판매 사진</span></span></div><span class="cap"><b>판매</b><small><span class="todo">정품 유통 방식 표기</span></small></span></a><a href="#apply"><div class="ph "><span><span class="todo">설치 사진</span></span></div><span class="cap"><b>설치</b><small><span class="todo">설치 범위·기간</span></small></span></a></div>
+
+<div class="sh"><h2>Guide</h2><a href="#apply">더보기</a></div>
+<div class="news"><a href="#apply"><div class="pic"><div class="ph "><span></span></div></div><b>수전 고르는 법: 마감과 배수 방식</b><p><span class="todo">가이드 요약</span></p></a><a href="#apply"><div class="pic"><div class="ph "><span></span></div></div><b>양변기, 원피스와 투피스의 차이</b><p><span class="todo">가이드 요약</span></p></a><a href="#apply"><div class="pic"><div class="ph "><span></span></div></div><b>샤워 시스템 설치 전 확인할 것</b><p><span class="todo">가이드 요약</span></p></a></div>
+
+<div class="sh"><h2>Brands</h2><a href="#apply">더보기</a></div>
+<div class="brands"><div><span class="todo">브랜드명</span></div><div><span class="todo">브랜드명</span></div><div><span class="todo">브랜드명</span></div><div><span class="todo">브랜드명</span></div><div><span class="todo">브랜드명</span></div><div><span class="todo">브랜드명</span></div><div><span class="todo">브랜드명</span></div><div><span class="todo">브랜드명</span></div></div>
+
+<div class="sh" id="portfolio"><h2>Portfolio</h2><a href="#apply">더보기</a></div>
+<section class="pf"><div class="ph "><span><span class="todo">시공 사례 1</span></span></div><div class="arr"><span>‹</span><span>›</span></div><span class="cap"><b><span class="todo">시공 사례 1</span></b><br><small>1 / 3</small></span></section>
+
+<section class="apply" id="apply">
+  <div class="pic"><div class="ph "><span><span class="todo">상담 중인 욕실 도면·샘플 컷</span></span></div></div>
+  <div class="f"><h2>구매 상담 신청</h2><p style="color:var(--sub);margin:0 0 20px">공간 정보를 남겨 주시면 맞는 제품으로 구매 상담을 도와 드립니다.</p>
+    <form id="lead-form" action="result.html" method="get" autocomplete="off" novalidate>
+      <label class="field"><span>이름</span><input id="f-name" type="text" required maxlength="20" placeholder="홍길동"></label>
+<label class="field"><span>연락처</span><input id="f-contact" type="tel" required pattern="[0-9\- ]{9,14}" placeholder="010-0000-0000"></label>
+<label class="field"><span>관심 품목</span><select id="f-select" required><option value="">선택해 주세요</option><option>수전</option><option>도기(양변기·세면대)</option><option>샤워 시스템</option><option>욕실 전체</option></select></label>
+
+      <div class="safe-note"><span aria-hidden="true">🔒</span><div>입력한 정보는 <b>어디에도 전송·저장되지 않고</b> 완료 즉시 지워집니다. <button type="button" data-privacy-open>자세히 보기</button></div></div>
+      <button class="submit" type="submit" id="cta-submit">구매 상담 신청</button>
+    </form></div>
+</section>
+</main>
+
+<footer class="ft"><div><nav><a href="#apply">1:1 상담</a><a href="#" data-privacy-open>개인정보 처리 안내</a></nav>이 페이지는 수업 실습용 페이지입니다. 실제 판매·결제는 이루어지지 않으며, 표기된 수치·후기는 예시입니다.</div><div><b style="color:var(--ink)">고객센터</b><br><span class="todo">연락처 · 운영 시간</span></div></footer>
+<div class="modal" id="privacy-modal" role="dialog" aria-modal="true" aria-labelledby="privacy-title" aria-hidden="true">
+  <div class="modal-box">
+    <span class="badge">개인정보 미수집 · 즉시 파기</span>
+    <h2 id="privacy-title">개인정보 처리 안내</h2>
+    <ol>
+      <li><strong>입력하신 정보는 절대 저장하지 않습니다.</strong> 서버, 데이터베이스, 스프레드시트, 이메일, 외부 서비스 어디로도 전송되지 않습니다.</li>
+      <li>입력값은 이 브라우저 화면에만 잠시 머물며, 완료 버튼을 누르는 <strong>즉시 화면에서 지워집니다.</strong> 쿠키나 브라우저 저장소에도 남기지 않습니다.</li>
+      <li>페이지 제작자와 강사를 포함한 <strong>누구도 입력값을 볼 수 없습니다.</strong></li>
+    </ol>
+    <label><input type="checkbox" id="privacy-agree"> 위 내용을 확인했으며, 입력값이 저장되지 않고 즉시 파기된다는 점에 동의합니다.</label>
+    <div class="modal-actions">
+      <button type="button" class="cancel" id="privacy-cancel">닫기</button>
+      <button type="button" class="ok" id="privacy-ok" disabled>확인했습니다</button>
+    </div>
+  </div>
+</div><script src="assets/privacy.js"></script>
+</body>
+</html>
